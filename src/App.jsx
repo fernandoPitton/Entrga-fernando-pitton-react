@@ -1,18 +1,17 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import ItemListContainer from './componets/ItemListContainer'
+
 import './App.css'
 import NavBar from './componets/NavBar'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
       
        <NavBar /> 
        
-       
+       <ItemListContainer texto='Fututros productos'/>
     </>
   )
 }
